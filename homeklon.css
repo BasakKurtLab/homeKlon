@@ -1,0 +1,170 @@
+*{box-sizing: border-box;}
+html{height:100%;}
+body{margin:0; padding:0; height: 100%;}
+
+.hauptContainer
+{
+width: 100%;
+height:100%;
+display: flex;
+background-image:url("images/freedom.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+background-color: black;
+justify-content: center;
+flex-wrap: wrap;
+align-content: space-between;
+
+
+}
+
+
+
+
+.row1
+{width:92%;
+  height:30px;
+  opacity: ;
+  background-color: none;
+margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.box1
+{
+  width:13%;
+  height:100%;
+  background-color: none;
+display: flex;
+justify-content: space-around;
+}
+.box1 input
+{
+  width:20%;
+  outline:none;
+  color:black;
+  border:none;
+  background: transparent;
+  font-size: 16px;
+}
+.box2
+{
+
+  height:100%;
+}
+.row2
+{
+  width:40%;
+  height:60px;
+  background-color: white;
+  border:1px solid #aeafa9;
+  border-radius: 10px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+.row2 input
+{width:60%;
+  height:80%;
+  outline:none;
+  font-size: 18px;
+  color:#6d7073;
+  border:none;
+
+}
+.row2 img
+{
+  width:5%;
+}
+.row3
+{width:80%;
+height:60px;
+
+display:flex;
+justify-content: center;
+background-color: white;
+align-items: center;
+
+}
+.row3-inn
+{display: flex;
+  width:50%;
+  height:50px;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.row4
+{
+  width:100%;
+  height:60px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.row4 img
+{width:60%;
+  background-color: white;
+padding: 3px;
+
+
+}
+.row4 a
+{padding:20px;
+  text-decoration: none;
+  color:#b6bdb5;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.row4 a:hover
+{ border-radius: 5px;
+background-color: #7c7f83;
+opacity:0.6;}
+
+
+
+
+
+
+
+
+
+.footer
+{
+  width:100%;
+  height:50px;
+  background-color: #3f4140;
+  display: flex;
+  align-items: center;
+justify-content: space-around;
+  padding-left: 17%;
+  padding-right: 17%;
+  opacity: 0.8;
+
+
+}
+.footer a
+{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+  padding:15px;
+
+
+}
+.footer a:hover
+{
+  background-color:#0d0c0c;
+  border-bottom: 2px solid red;
+  opacity: 1;
+}
