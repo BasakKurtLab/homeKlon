@@ -6,58 +6,68 @@ body{margin:0; padding:0; height: 100%;}
 {
 width: 100%;
 height:100%;
-display: flex;
+
 background-image:url("images/freedom.jpg");
 background-size:cover;
 background-repeat: no-repeat;
-background-color: black;
+display: flex;
 justify-content: center;
 flex-wrap: wrap;
 align-content: space-between;
-
-
 }
+/**********HEADER ***********/
 
 
 
-
-.row1
+header
 {width:92%;
-  height:30px;
-  opacity: ;
+  height:10vh;
   background-color: none;
-margin-top: 30px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+
+}
+header div
+{
+
+  background-color: none;
+  display: flex;
   align-items: center;
 
 }
-.box1
+.klein-img
 {
-  width:13%;
-  height:100%;
-  background-color: none;
-display: flex;
-justify-content: space-around;
+  display: flex;
+  width: 32px;
+  margin: 0 10px;
+  padding: 7px;
+  border-radius: 15px;
 }
-.box1 input
+.klein-img:hover
 {
-  width:20%;
+  background-color: #7d7a7a;
+}
+.klein-img img
+{
+  width: 100%;
+}
+header input
+{
+  width:10%;
   outline:none;
   color:black;
   border:none;
   background: transparent;
-  font-size: 16px;
+  font-size: 18px;
 }
-.box2
-{
+/******************** SUCHFELD*********/
 
-  height:100%;
-}
 .row2
 {
   width:40%;
-  height:60px;
+  height:8vh;
   background-color: white;
   border:1px solid #aeafa9;
   border-radius: 10px ;
@@ -81,42 +91,28 @@ padding-right: 15px;
 {
   width:5%;
 }
-.row3
-{width:80%;
-height:60px;
 
-display:flex;
-justify-content: center;
-background-color: white;
-align-items: center;
-
-}
-.row3-inn
-{display: flex;
-  width:50%;
-  height:50px;
-  justify-content: center;
-  background-color: yellow;
-}
-
-.row4
+/**********************/
+/******MAIN******/
+/**********************/
+main
 {
   width:100%;
-  height:60px;
+  height:30vh;
   display: flex;
   align-items: center;
 justify-content: center;
 text-align: center;
 
 }
-.row4 img
+main img
 {width:60%;
   background-color: white;
 padding: 3px;
 
 
 }
-.row4 a
+main a
 {padding:20px;
   text-decoration: none;
   color:#b6bdb5;
@@ -124,20 +120,18 @@ padding: 3px;
   font-weight: bold;
 }
 
-.row4 a:hover
+main a:hover
 { border-radius: 5px;
 background-color: #7c7f83;
 opacity:0.6;}
 
 
+/***************************/
+/*****FOOTER************/
+/***********************/
 
 
-
-
-
-
-
-.footer
+footer
 {
   width:100%;
   height:50px;
@@ -151,7 +145,7 @@ justify-content: space-around;
 
 
 }
-.footer a
+footer a
 {
   text-decoration: none;
   color: white;
@@ -162,7 +156,7 @@ justify-content: space-around;
 
 
 }
-.footer a:hover
+footer a:hover
 {
   background-color:#0d0c0c;
   border-bottom: 2px solid red;
