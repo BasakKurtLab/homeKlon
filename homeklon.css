@@ -7,7 +7,7 @@ body{margin:0; padding:0; height: 100%;}
 width: 100%;
 height:100%;
 
-background-image:url("images/freedom.jpg");
+background-image:url("images/herbst.jpg");
 background-size:cover;
 background-repeat: no-repeat;
 display: flex;
@@ -47,7 +47,7 @@ header div
 }
 .klein-img:hover
 {
-  background-color: #7d7a7a;
+  background-color: #cdc5c5;
 }
 .klein-img img
 {
@@ -100,30 +100,28 @@ main
   width:100%;
   height:30vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 justify-content: center;
 text-align: center;
 
 }
 main img
 {width:60%;
-  background-color: white;
-padding: 3px;
-
-
+background-color: white;
+padding: 5px;
 }
 main a
 {padding:20px;
   text-decoration: none;
-  color:#b6bdb5;
+  color:#f4f7ed;
   font-size: 14px;
   font-weight: bold;
 }
 
 main a:hover
 { border-radius: 5px;
-background-color: #7c7f83;
-opacity:0.6;}
+background-color: rgba(122, 118, 117, 0.38);
+}
 
 
 /***************************/
@@ -134,7 +132,7 @@ opacity:0.6;}
 footer
 {
   width:100%;
-  height:50px;
+  height: 50px;
   background-color: #3f4140;
   display: flex;
   align-items: center;
@@ -155,10 +153,13 @@ footer a
   padding:15px;
 
 
+
+
+
 }
 footer a:hover
-{
+{height: 50px;
   background-color:#0d0c0c;
-  border-bottom: 2px solid red;
+  border-top: 2px solid red;
   opacity: 1;
 }
